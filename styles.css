@@ -283,6 +283,9 @@ footer a:hover {
         width: 90%;
         /* Aumenta a largura do modal para ocupar mais espaço na tela menor */
     }
+    footer a {
+        font-size: clamp(0.8rem, 2vw, 1.6rem);
+    }
 }
 
 @media (max-width: 480px) {
@@ -300,6 +303,9 @@ footer a:hover {
     header h1 {
         font-size: 1.2em;
         /* Reduz o tamanho da fonte do título em telas muito pequenas */
+    }
+    footer a {
+        font-size: clamp(0.8rem, 2vw, 1.6rem);
     }
 
 }
