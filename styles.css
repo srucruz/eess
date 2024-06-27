@@ -285,6 +285,11 @@ footer a:hover {
     }
     footer a {
         font-size: clamp(0.8rem, 2vw, 1.6rem);
+        text-align: center;
+        /* Centraliza o título */
+        word-break: break-word;
+        /* Permite que o título quebre em várias linhas */
+        overflow-wrap: break-word;
     }
 }
 
@@ -306,6 +311,11 @@ footer a:hover {
     }
     footer a {
         font-size: clamp(0.8rem, 2vw, 1.6rem);
+        text-align: center;
+        /* Centraliza o título */
+        word-break: break-word;
+        /* Permite que o título quebre em várias linhas */
+        overflow-wrap: break-word;
     }
 
 }
