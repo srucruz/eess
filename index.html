@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Receitas</title>
+    <link rel="shortcut icon" href="./assets/img/eess_48x.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+
+    <header>
+        <a href="https://www.instagram.com/eedeserradosalitre?igsh=MTFjbHd0aXhwdG5zOQ==">
+            <img src="./assets/img/logo1.png" alt="Logo" class="logo">
+        </a>
+        <h1>Curso Técnico de Informática | Galeria de Receitas</h1>
+    </header>
+
+
+
+
+    <main>
+        <div id="galeria">
+            <!-- Photos will be inserted here by JavaScript -->
+        </div>
+        <div id="sobre">
+
+        </div>
+        <div id="modal-receitas" class="modal">
+            <div class="conteudo-modal">
+                <span class="close">&times;</span>
+                <h2 id="tituloReceita"></h2>
+                <img id="imagemReceita" src="" alt="Imagem Receita">
+                <h3>Ingredientes</h3>
+                <ul id="ingredientesReceita"></ul>
+                <h3>Modo de Preparo</h3>
+                <p id="modoPreparo"></p>
+            </div>
+        </div>
+
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="btnClose">&times;</span>
+                <h2>Sobre</h2>
+                <div class="imagemSobre">
+                    <img class="item-sobre" src="./assets/img/eess.png" />
+                </div>
+                <div>
+                    <p style="text-align: center;">Projeto Queijo, elaborado pela Escola Estadual de Serra do Salitre -
+                        MG, e desevolvido por alunos
+                        do curso de Tecnico em Informática, um site com várias receitas de queijo aproveitando o tema
+                        proposto <br /> <br />Todos os direitos resesrvados. &copy; 2024</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="scripts.js"></script>
+
+
+
+
+
+    <footer>
+        <div class="escola">
+            <a href="https://www.instagram.com/eedeserradosalitre?igsh=MTFjbHd0aXhwdG5zOQ==" target="_blank">EESS -
+                Escola Estadual
+                de
+                Serra do Salitre </a>
+        </div>
+        <div class="alunosDevs">
+            <div>
+                <a href="http://joaopedroovb.github.io/" target="_blank">Queijo Artesanal</a>
+            </div>
+        </div>
+        <div class="alunosDevs">
+            <div>
+                <a href="alunosDevs.html">Alunos Devs</a>
+            </div>
+        </div>
+        <div class="sobre">
+            <div>
+                <a id="openModalBtn">Sobre</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
